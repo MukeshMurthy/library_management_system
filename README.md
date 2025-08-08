@@ -114,7 +114,7 @@ JWT_SECRET=your_jwt_secret_key
 
 ## 🔐 Authentication
 
-- JWT-based authentication for users and admins.
+- Normal Authentication 
 - Separate access controls for user/admin dashboards.
 
 ---
