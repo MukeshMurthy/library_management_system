@@ -1,2 +1,4 @@
 # library_management_system
-This 
+This a full stack project using PERN stack
+
+
