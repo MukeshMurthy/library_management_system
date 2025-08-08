@@ -1,0 +1,136 @@
+.user-list-container {
+  padding: 2rem;
+  background-color: #f1f5f9;
+  min-height: calc(100vh - 60px);
+  transition: margin-left 0.3s ease;
+}
+
+.user-list-container.sidebar-open {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.user-list-container.sidebar-closed {
+  margin-left: 0;
+  margin-top: 50px;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.user-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border: 1px solid #e2e8f0;
+}
+
+.user-table th {
+  background-color: #2f3e46;
+  color: white;
+  font-weight: 600;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.user-table tr:hover {
+  background-color: #e2e8f0;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+@media (max-width: 768px) {
+  .user-list-container {
+    padding: 1rem;
+    margin-left: 0 !important;
+    margin-top: 60px;
+  }
+
+  .user-table th,
+  .user-table td {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+  }
+
+  .delete-btn {
+    padding: 5px 8px;
+    font-size: 0.75rem;
+  }
+}
+
+
+.pagination1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.page-btn {
+  background-color: #3c546a;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
+}
+
+.page-btn:disabled {
+  background-color: #a3a3a3;
+  cursor: not-allowed;
+}
+
+.page-btn:hover:not(:disabled) {
+  background-color: #2b3d4f;
+}
+
+.page-info {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+}
+
+
+@media (max-width: 480px) {
+  .user-table th,
+  .user-table td {
+    padding: 8px 10px;
+    font-size: 0.8rem;
+  }
+
+  .delete-btn {
+    padding: 4px 6px;
+    font-size: 0.7rem;
+  }
+}

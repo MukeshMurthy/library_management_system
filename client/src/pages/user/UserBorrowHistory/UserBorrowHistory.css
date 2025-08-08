@@ -1,0 +1,66 @@
+.user-history-container {
+  max-width: 850px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-history-container h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #0f172a;
+}
+
+.user-history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.user-history-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.user-history-card h4 {
+  font-size: 1.1rem;
+  color: #1e293b;
+}
+
+.user-history-card p {
+  font-size: 0.95rem;
+  color: #475569;
+  margin: 0.2rem 0;
+}
+
+.user-history-card p span {
+  font-weight: 600;
+}
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.pagination-controls button {
+  padding: 0.5rem 1rem;
+  background-color: #334155;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pagination-controls button:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
+

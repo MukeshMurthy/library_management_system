@@ -1,0 +1,94 @@
+.overdue-books-container {
+  padding: 2rem;
+  background-color: #f1f5f9;
+  min-height: calc(100vh - 60px);
+  transition: margin-left 0.3s ease;
+}
+
+.overdue-books-container.sidebar-open {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.overdue-books-container.sidebar-closed {
+  margin-left: 0;
+  margin-top: 50px;
+}
+
+.overdue-books-container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #1e293b;
+  text-align: left;
+}
+
+
+.search-bar-container {
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.search-input {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 300px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #52796f;
+  box-shadow: 0 0 5px rgba(82, 121, 111, 0.5);
+}
+
+.overdue-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.overdue-table th,
+.overdue-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border: 1px solid #e2e8f0;
+}
+
+.overdue-table th {
+  background-color: #2f3e46;
+  color: white;
+  font-weight: 600;
+}
+
+.overdue-table tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.overdue-table tr:hover {
+  background-color: #e2e8f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #475569;
+  margin-top: 2rem;
+}
+
+.status.returned {
+  color: green;
+  font-weight: bold;
+}
+
+.status.overdue {
+  color: red;
+  font-weight: bold;
+}

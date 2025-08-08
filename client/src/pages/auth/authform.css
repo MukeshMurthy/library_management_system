@@ -1,0 +1,366 @@
+
+.page-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.left-half {
+  flex: 1;
+  background-color: #354f52;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+
+.right-half {
+  flex: 1;
+  background-color: #fcfcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.welcome-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.welcome-message {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 400px;
+}
+
+
+.signup-container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  padding: 60px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+.signup-form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.signup-form input:focus {
+  border-color: #02264dca;
+  outline: none;
+}
+
+.signup-form button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #354f52;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.signup-form button[type="submit"]:hover {
+  background-color: #4b6e71;
+}
+
+
+.message {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #cc0000;
+}
+
+
+.password-rules {
+  font-size: 12px;
+  line-height: 1.4;
+  margin: -5px 0 10px 0;
+  padding-left: 10px;
+}
+
+.password-rules p {
+  margin: 2px 0;
+}
+
+.valid,
+.invalid {
+  font-size: 12px;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: #cc0000;
+}
+
+
+.glitter-text {
+  background: linear-gradient(18deg, #ffffff 0%, #a0a0a0 20%, #ffffff 40%, #ffffff 60%, #ffffff 80%);
+  background-size: 400% 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shimmer 5.5s infinite linear;
+}
+
+.input-error {
+  border: 1px solid red !important;
+}
+
+.message {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.message.success {
+  color: green;
+}
+
+.message.error {
+  color: #cc0000;
+}
+
+.welcome-text {
+  text-align: center;
+  font-size: 0.9rem; /* smaller size */
+  margin-top: 10px;
+  color: #555;
+}
+
+
+.signup-form select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.signup-form select:focus {
+  border-color: #02264dca;
+  outline: none;
+}
+
+
+.admin-secret-field {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.admin-secret-field input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.admin-secret-field input:focus {
+  border-color: #02264dca;
+  outline: none;
+}
+
+.password-rules-right {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #333;
+}
+.signin-logo {
+  all: unset;
+  width: 280px;
+  height: auto;
+}
+
+
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+
+.page-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.left-half {
+  flex: 1;
+  background-color: #354f52;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 60px 40px;
+  text-align: center;
+  position: relative;
+}
+
+
+
+/* Right Half */
+.right-half {
+  flex: 1;
+  background-color: #fcfcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Welcome Text Styling */
+.welcome-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.welcome-message {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Signup Container */
+.signup-container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  padding: 60px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Elements */
+.signup-form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.signup-form input:focus {
+  border-color: #02264dca;
+  outline: none;
+}
+
+.signup-form button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #354f52;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.signup-form button[type="submit"]:hover {
+  background-color: #4b6e71;
+}
+
+/* Toast and Input Feedback */
+.input-error {
+  border: 1px solid red !important;
+}
+
+.message {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.message.success {
+  color: green;
+}
+
+.message.error {
+  color: #cc0000;
+}
+
+.welcome-text {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+.glitter-text {
+  background: linear-gradient(18deg, #ffffff 0%, #a0a0a0 20%, #ffffff 40%, #ffffff 60%, #ffffff 80%);
+  background-size: 400% 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shimmer 5.5s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}

@@ -1,0 +1,102 @@
+.book-details-container {
+  padding: 2rem;
+  background-color: #f1f5f9;
+  min-height: calc(100vh - 60px);
+  margin-left: 250px;
+  margin-top: 60px;
+  transition: margin-left 0.3s ease;
+}
+
+.book-details-container.sidebar-closed {
+  margin-left: 0;
+}
+
+
+.book-info-card {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+}
+
+.book-info-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
+.book-info-card p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #334155;
+}
+
+.copy-controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.increase-btn,
+.decrease-btn {
+  padding: 10px 18px;
+  font-size: 10px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.increase-btn {
+  background-color: #1a1b1b6a;
+}
+
+.increase-btn:hover {
+  background-color: #1e2c32;
+}
+
+.decrease-btn {
+  background-color: #1a1b1b6a;
+}
+
+.decrease-btn:hover {
+  background-color: #ef4444;
+}
+
+.borrower-card {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.borrower-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
+.borrower-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.borrower-card li {
+  font-size: 0.95rem;
+  color: #475569;
+  padding: 10px;
+  border-left: 4px solid #cbd5e1;
+  margin-bottom: 8px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+}
+
+
